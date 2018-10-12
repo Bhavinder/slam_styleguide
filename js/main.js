@@ -1,4 +1,4 @@
-new WOW().init();
+//new WOW().init();
 
 $(window).scroll(function() {
     if ($(this).scrollTop() > 50 ) {
