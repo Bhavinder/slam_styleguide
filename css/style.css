@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   color: #212121!important;
-  font-weight: 100!important;
+  font-weight: 400!important;
   font-size: 42px!important;
 }
 
@@ -99,6 +99,9 @@ p{
 }
 .txt-color-grey-light{
 	color: #e4e4e4!important;
+}
+.txt-color-grey12 {
+	color: #9E9E9E!important;
 }
 
 .bg-color-primary{
