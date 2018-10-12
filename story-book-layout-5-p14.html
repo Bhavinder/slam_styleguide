@@ -27,7 +27,7 @@
   <header>
 
     <!-- Full Page Intro -->
-    <div class="mdcbg-1">
+    <div class="mdcbg">
       <div class="float-right view"><img class="mdlogo" src="./img/asset/logo.png" /></div>
 
       <nav class="navbar navbar-expand-xl bg-white small py-0">
@@ -40,23 +40,16 @@
         <div class="collapse navbar-collapse" id="navbarsExample06">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link txt-color-primary" href="#">DE</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">EN</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">FR</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><span class="font-weight-bold"><strong>|</strong></span></a>
+              <a class="nav-link" href="home.html">Home</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-globe" aria-hidden="true"></i> Schweiz</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><span class="font-weight-bold"><strong>|</strong></span></a>
+              <form class="form-inline">
+                <div class="md-form my-0">
+                  <i class="fa fa-search"></i>
+                  <input class="form-control " type="text" placeholder="Dokument suchen" aria-label="Dokument suchen">
+                </div>
+              </form>
             </li>
 
             <li class="nav-item dropdown">
@@ -69,9 +62,6 @@
                 <a class="dropdown-item" href="#">Another action</a>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><span class="font-weight-bold"><strong>|</strong></span></a>
             </li>
 
 
@@ -116,12 +106,9 @@
             <!--Grid row-->
             <div class="row">
               <!--Grid column-->
-              <div class="col-md-1"></div>
-              <div class="col-md-10 text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
-                <h1 class="h1-responsive font-weight-bold mt-sm-12 white-text">Sales Documents Portal</h1>
+              <div class="col-md-6 text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+                <h1 class="h1-responsive font-weight-bold mt-sm-6 white-text">Sales Documents Portal</h1>
               </div>
-              <div class="col-md-1"></div>
-
               <!--Grid column-->
               <!--Grid column-->
               <!--<div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
@@ -140,62 +127,173 @@
 
     <!-- /.Navbar -->
   </header>
+  <!--/.Double navigation-->
+  <div class="container p-0">
+    <ul class="nav md-pills nav-justified pills-secondary bg-white">
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center" data-toggle="tab" href="home.html" role="tab">Home</a>
+      </li>
+      <li class="nav-item">
+        <!--<a class="nav-link nav-link-sb text-center" data-toggle="tab" href="page-9.html" role="tab">Story Book</a>-->
+        <a class="nav-link nav-link-sb text-center" href="story-book-layout-1-p9.html">Story Book</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center" href="story-book-layout-2-p10.html">Slide Library</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center" href="story-book-layout-3-p11.html">Fund Overview</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center" href="story-book-layout-4-p12.html">Capability Guide</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center active" href="story-book-layout-5-p14.html">Product Flyer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center" href="#panel13">Performance Analyse</a>
+      </li>
+      <li class="nav-item dropdown">
+        <!--          <li class="nav-item dropdown show">-->
+        <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown06">
+          <!--            <div class="dropdown-menu show" aria-labelledby="dropdown06">-->
+          <a class="dropdown-item nav-link-sb" href="#">Lorem ipsum</a>
+          <a class="dropdown-item nav-link-sb" href="#">Dolor sit amet</a>
+          <a class="dropdown-item nav-link-sb" href="#">Consetetur</a>
+        </div>
+      </li>
+    </ul>
+  </div>
 
 
-  <main class="mt-0">
+  <main class="mt-3">
     <!--Main container-->
     <div class="container">
-      <div class="row">
-        <!--Grid column-->
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <div class="row">
-            <div class="col-md-6">
 
+      <!--Grid row-->
+      <div class="row bg-white p-3">
 
-
-
-              <!-- Default form login -->
-              <form class="text-left p-5 bg-white">
-                <label>Benutzername</label>
-                <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
-
-                <!-- Password -->
-                <label>Passwort</label>
-                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
-
-                <div class="d-flex text-left">
-                  <div>
-                    <!-- Remember me -->
-                    <div class="custom-control custom-checkbox">
-                      <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                      <label class="custom-control-label txt-color-primary" for="defaultLoginFormRemember">Passwort
-                        vergessen</label>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Sign in button -->
-                <button class="btn btn-primary btn-block my-4" type="submit">ANMELDEN</button>
-              </form>
-
-
-
-
-
-
-            </div>
-            <div class="col-md-6 bg-white px-1 ml-auto d-flex align-items-center mt-4 mt-md-0">
-              <div class="block-text p-2">
-                Willkommen auf dem neuen Sales Documents Portal von Swiss Life Asset Managers. Hier ﬁnden Sie alle
-                relevanten Sales Dokumente wie Storybooks, Fact Sheets, Flyers, Fund Overviews, etc. zum Download und
-                können diese direkt auf Ihre Bedürfnisse ausgerichtet individualisieren.
-              </div>
-            </div>
-          </div>
+        <div class="col-lg-12 col-md-12">
+          <h2 class="mb-3 text-left">
+            <strong>Meine Favoriten</strong>
+          </h2>
+          <h3 class="mb-3 text-left">
+            <strong>ANLAGEPROFILE</strong>
+          </h3>
+          <hr />
         </div>
-        <div class="col-md-1"></div>
+
+
+        <div class="col-lg-3 col-md-4">
+          <div class="dlt-head mb-3 text-left">EQUITY</div>
+
+          <!--Card image-->
+          <div class="view overlay customcard">
+            <img src="./img/svg/art-001.svg" class="card-img-top" alt="">
+            <a href="cover-and-agenda-p19.html">
+              <div class="black-text dlt-head-txt">Minimum Volatilität Strategien</div>
+            </a>
+          </div>
+
+
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <div class="dlt-head mb-3 text-left">FIXED INCOME</div>
+
+          <!--Card image-->
+          <div class="view overlay customcard">
+            <img src="./img/svg/corporate-bonds.svg" class="card-img-top" alt="">
+            <a href="cover-and-agenda-p19.html">
+              <div class="black-text dlt-head-txt">Emerging Markets <br /><br /></div>
+            </a>
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-4"></div>
+        <div class="col-lg-3 col-md-4"></div>
+
+
+        <div class="col-lg-12 col-md-12 mt-5">
+          <h3 class="mb-3 text-left mt-4">
+            <strong>FUNDS</strong>
+          </h3>
+          <hr />
+        </div>
+
+        <div class="col-lg-12 col-md-12 container-fluid">
+          <table id="dtBasicExample" class="table table-striped" cellspacing="0" width="100%">
+            <thead>
+              <tr>
+                <th scope="col">Name <i class="fa fa-sort txt-color-primary" aria-hidden="true"></i></th>
+                <th scope="col">Wahrung <i class="fa fa-sort" aria-hidden="true"></i></th>
+                <th scope="col">Sprache <i class="fa fa-sort" aria-hidden="true"></i></th>
+                <th scope="col">Letzte Anderung <i class="fa fa-sort" aria-hidden="true"></i></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">Swiss Life Funds (CH) Equity Global Protect Enhanced (CHF)</td>
+                <td>CHF</td>
+                <td>Deutsch</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><img src="img/asset/ribban.png"></td>
+              </tr>
+
+              <tr>
+                <td scope="row">Swiss Life Funds (LUX) Equity Global Minimum Vola</td>
+                <td>EUR</td>
+                <td>Deutsch</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><img src="img/asset/ribban.png"></td>
+              </tr>
+
+              <tr>
+                <td scope="row">Swiss Life Funds (LUX) Equity Global High Dividend</td>
+                <td>CHF</td>
+                <td>Deutsch</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><img src="img/asset/ribban.png"></td>
+              </tr>
+
+              <tr>
+                <td scope="row">Swiss Life Funds (LUX) Equity Global High Dividend </td>
+                <td>CHF</td>
+                <td>Deutsch</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><img src="img/asset/ribban.png"></td>
+              </tr>
+            </tbody>
+
+          </table>
+        </div>
+
+
+
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </div>
     <!--Main container-->
