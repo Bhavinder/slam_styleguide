@@ -220,11 +220,13 @@ p{
 .nav-item .active{
 	color: black;
 	border-bottom: black 4px solid;
+	height:100%;
 }
 
 .nav-link-sb:hover{
 	color: black;
 	border-bottom: black 4px solid;
+	height:100%;
 }
 
 .subnav .nav-item .active{
