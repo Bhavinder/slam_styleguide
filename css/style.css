@@ -41,6 +41,79 @@ h5 {
   font-size: 16px!important;
 }
 
+/* Brand colors */
+.txt-color-primary {
+	color: #d82034;
+}
+
+.txt-color-secondary {
+	color: #a11c36;
+}
+
+.txt-color-black {
+	color: black;
+}
+
+.txt-color-gray87 {
+	color: #333333;
+}
+
+.txt-color-gray54 {
+	color: #757575;
+}
+
+.txt-color-gray38 {
+	color: #808080;
+}
+
+.txt-color-gray12 {
+	color: #b4b4b4;
+}
+
+.txt-color-gray6 {
+	color: #e5e5e5;
+}
+
+.txt-color-darken38 {
+	color: #9e9e9e;
+}
+
+.txt-color-darken12 {
+	color: #e0e0e0;
+}
+.txt-color-darken6 {
+	color: #f0f0f0;
+}
+
+.danger-color{color:#dc3545;}
+.warning-color{color:#ffc107;}
+.success-color{color:#28a745;}
+.info-color{color:#17a2b8;}
+.cta-default{color:#d82034;}
+.cta-hove{color:#961624;}
+
+
+
+
+form label {
+  font-size: 16px!important;
+  color: #757575!important;
+  font-weight: normal;
+}
+
+
+.dropdown-menu .dropdown-item{
+	padding-left: 25px!important;
+	padding-right: 25px!important;
+	margin-bottom: 0px!important;
+	padding-top: 4px!important;
+    padding-bottom: 4px!important;
+}
+.navbar .dropdown-menu a{
+	font-weight: 400!important;
+}
+
+
 .dlt-head {
 	font-family: "Roboto", sans-serif;
   color: #757575!important;
@@ -64,12 +137,12 @@ p{
 
 
 .mdcbg{
-	background-image: url('http://localhost/mdboot/img/asset/sm-image.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top;
+	background-image: url('img/sm-image.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top;
 	min-height: 300px;
 	margin-bottom: -25px;
 }
 .mdcbg-1{
-	background-image: url('http://localhost/mdboot/img/asset/sm-image.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top;
+	background-image: url('img/sm-image.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top;
 	min-height: 400px;
 	margin-bottom: -35px;
 }
@@ -136,7 +209,7 @@ p{
 .customcard{
   background-color: #e4e4e4;
   padding: 18px;
-  height: 100%;
+  min-height: 100%;
 }
 
 .customcard div{
@@ -166,7 +239,8 @@ p{
 
 
 .nav-link-sb{
-	color: #d72034;
+	color: #ea8691;
+	font-weight:normal;
 }
 
 
@@ -301,9 +375,16 @@ padding: 6px 10px 6px 10px;
 	font-size: 14px;
 	color: gray;
 	text-align: left;
+	font-weight: 400;
 }
 .breadcrumb-item + .breadcrumb-item::before {
     content: ">"; 
+}
+
+.navbar-inner {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
 }
 
 .navbar .center .navbar-inner {
@@ -314,6 +395,15 @@ padding: 6px 10px 6px 10px;
     display:inline-block;
     vertical-align: middle;
 }
+.navbar-inner  .nav-item .active{
+	color: black!important;
+}
+.navbar-inner  .nav-item .active span{
+	background-color: black!important;
+}
+.navbar-inner  .nav-item .visited {
+	border-bottom: #c4b400 4px solid;
+}
 
 .sub-footer-links span{
 	margin-right: 18px;
@@ -323,7 +413,7 @@ padding: 6px 10px 6px 10px;
 .overlay-inner p{
 	font-size: 80%!important;
 	margin-top: 10px;
-	font-weight: bold;
+/*	font-weight: bold;*/
 }
 .form-check-inline label {
 	font-weight: bold;
@@ -337,4 +427,40 @@ padding: 6px 10px 6px 10px;
 .sub-nav-footer a {
 	color: black;
 	font-size: 80%;
+}
+
+.passwordeye{
+position: relative;
+top: -25px;
+padding-right: 10px;	
+}
+
+.login label{
+	font-size: 16px;
+	color: #757575;
+}
+
+.login input::-moz-placeholder { /* Code for Firefox */
+    color: #757575;
+}
+
+.login input::-webkit-input-placeholder { /* Chrome, Edge, Safari and Opera */
+    color: #757575;
+}
+
+.login input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #757575;
+}
+
+.login input::placeholder {
+    color: #757575;
+}
+
+.modal-body .nav-link {
+	font-weight: normal;
+}
+
+.form-check-input input[type=checkbox]::checked{
+	color:white;
+	background-color: #d82034!important;
 }

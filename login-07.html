@@ -17,28 +17,7 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
     rel='stylesheet' type='text/css'>
 	
-<style>
-.vertical-menu {
-    width: 100%;
-}
 
-.vertical-menu a {
-    background-color: #eee;
-    color: black;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-}
-
-.vertical-menu a:hover {
-    background-color: #ccc;
-}
-
-.vertical-menu a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-</style>
 </head>
 
 <body>
@@ -48,7 +27,7 @@
   <header>
 
     <!-- Full Page Intro -->
-    <div class="">
+    <div class="mdcbg-1">
       <div class="float-right view"><img class="mdlogo" src="./img/asset/logo.png" /></div>
 
       <nav class="navbar navbar-expand-xl bg-white small py-0">
@@ -129,7 +108,31 @@
         </div>
       </nav>
 
-  
+      <!-- Mask & flexbox options-->
+      <div class="container p-0">
+        <div class="rgba-gradient d-flex justify-content-center align-items-center">
+          <!-- Content -->
+          <div class="container">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-1"></div>
+              <div class="col-md-10 text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+                <h1 class="h1-responsive mt-sm-12 white-text">Sales Documents Portal</h1>
+              </div>
+              <div class="col-md-1"></div>
+
+              <!--Grid column-->
+              <!--Grid column-->
+              <!--<div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
+                    <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" class="img-fluid">
+                  </div>-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Content -->
+        </div>
+      </div>
       <!-- Mask & flexbox options-->
     </div>
 
@@ -139,48 +142,57 @@
   </header>
 
 
-  <main>
+  <main class="mt-0">
     <!--Main container-->
     <div class="container">
-      <div class="row mt-5">
+      <div class="row">
         <!--Grid column-->
-        <div class="col-md-4 bg-white">
-			<div class="vertical-menu ">
-				<a href="index.html" class="active">Index</a>
-				<a href="home.html">Home (P.5, 6, 8, 13)</a>
-				<a href="login-07.html">Login (P.7, 31)</a>
-			</div>
-        </div>
-        <div class="col-md-4 bg-white">
-			<div class="vertical-menu ">
-				<a href="story-book-layout-1-p9.html" class="active">Story</a>
-				<a href="story-book-layout-1-p9.html">Story Layout 1 (P.9)</a>
-				<a href="story-book-layout-2-p10.html">Story Layout 2 (P.10)</a>
-				<a href="story-book-layout-3-p11.html">Story Layout 3 (P.11)</a>
-				<a href="story-book-layout-4-p12.html">Story Layout 4 (P.12)</a>
-				<a href="story-book-layout-5-p14.html">Story Layout 5 (P.14)</a>
-				<a href="story-book-layout-6-p15.html">Story Layout 6 (P.15)</a>
-				<a href="story-book-layout-7-p16.html">Story Layout 7 (P.16)</a>
-				<a href="story-book-layout-8-p18.html">Story Layout 8 (P.18)</a>
-			</div>
-        </div>
-        <div class="col-md-4 bg-white">
-			<div class="vertical-menu ">
-				<a href="cover-and-agenda-p19.html" class="active">Cover & Agenda</a>
-				<a href="cover-and-agenda-p19.html">Cover & Agenda (P.19)</a>
-				<a href="about-p20.html">About (P.20)</a>
-				<a href="strategy-p21.html">Strategy (P.21)</a>
-				<a href="product-p22.html">Product (P.22)</a>
-				<a href="track-record-p23.html">Track Record (P.23, 26, 28)</a>
-				<a href="appendix-p24.html">Appendix (P.24, 27, 29, 30)</a>
-				<a href="page-25.html">Präsentation (P.25)</a>
-			</div>
-        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-6">
 
-		
-		
 
-	</div>
+
+
+              <!-- Default form login -->
+              <form class="login text-left p-5 bg-white" action="home.html">
+                <label>Benutzername</label>
+                <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                <!-- Password -->
+                <label>Passwort</label>
+				<input placeholder="Password" name="password" id="password" class="form-control input-field" type="password"> 
+				<i class="fas fa-eye-slash passwordeye float-right"></i>
+
+
+                <div class="d-flex text-left mt-2">
+                      <a href="#" class="txt-color-primary" >Passwort
+                        vergessen</a>
+                </div>
+
+                <!-- Sign in button -->
+                <button class="btn btn-primary btn-block my-4" type="submit">ANMELDEN</button>
+              </form>
+
+
+
+
+
+
+            </div>
+            <div class="col-md-6 bg-white px-1 ml-auto d-flex align-items-center mt-4 mt-md-0">
+              <p class="block-text p-4 text-left">
+                Willkommen auf dem neuen Sales Documents Portal von Swiss Life Asset Managers. Hier ﬁnden Sie alle
+                relevanten Sales Dokumente wie Storybooks, Fact Sheets, Flyers, Fund Overviews, etc. zum Download und
+                können diese direkt auf Ihre Bedürfnisse ausgerichtet individualisieren.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
     </div>
     <!--Main container-->
   </main>
