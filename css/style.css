@@ -74,6 +74,28 @@ h5 {
 	color: #e5e5e5;
 }
 
+/* BackGround */
+.bg-color-gray87 {
+	background-color: #333333;
+}
+
+.bg-color-gray54 {
+	background-color: #757575;
+}
+
+.bg-color-gray38 {
+	background-color: #808080;
+}
+
+.bg-color-gray12 {
+	background-color: #b4b4b4;
+}
+
+.bg-color-gray6 {
+	background-color: #e5e5e5;
+}
+
+
 .txt-color-darken38 {
 	color: #9e9e9e;
 }
@@ -240,9 +262,13 @@ p{
 
 
 
-.nav-link-sb{
+.nav-link-sb {
 	color: #ea8691;
 	font-weight:normal;
+	border-right: white 1px solid;
+}
+.nav-link-sbfirst {
+	border-left: white 1px solid;
 }
 
 
@@ -465,4 +491,11 @@ padding-right: 10px;
 .form-check-input input[type=checkbox]::checked{
 	color:white;
 	background-color: #d82034!important;
+}
+
+.overlay-inner .fa-2x{
+	font-size: 100%;
+}
+.overlay-inner .fa-3x{
+	font-size: 100%;
 }
