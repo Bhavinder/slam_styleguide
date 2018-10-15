@@ -41,6 +41,16 @@ h5 {
   font-size: 16px!important;
 }
 
+header {
+	max-width: 1360px !important;
+	margin: auto;
+}
+
+footer {
+	max-width: 1360px !important;
+	margin: auto;
+}
+
 /* Brand colors */
 .txt-color-primary {
 	color: #d82034;
@@ -498,4 +508,18 @@ padding-right: 10px;
 }
 .overlay-inner .fa-3x{
 	font-size: 100%;
+}
+.fa-expand {
+	cursor: pointer;
+}
+
+.modal-dialog {
+	max-width: 960px;
+	width: auto;
+}
+.modal-body .navbar-nav .nav-link {
+	font-size: 80%;
+}
+.modal-body p {
+	font-size: 80%!important;
 }
