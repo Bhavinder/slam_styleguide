@@ -1,7 +1,7 @@
 //new WOW().init();
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 50 ) {
+    if ($(this).scrollTop() > 10 ) {
         $('.scrolltop:hidden').stop(true, true).fadeIn();
     } else {
         $('.scrolltop').stop(true, true).fadeOut();
