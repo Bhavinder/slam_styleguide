@@ -1,20 +1,121 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url(../webfonts/Calibri.eot);
+  src: url(../webfonts/Calibri.eot?#iefix) format('embedded-opentype'),
+       url(../webfonts/Calibri.woff2) format('woff2'),
+       url(../webfonts/Calibri.woff) format('woff'),
+       url(../webfonts/Calibri.ttf) format('truetype'),
+       url(../webfonts/Calibri.svg#Calibri) format('svg');
+}
+@font-face {
+  font-family: 'CALIBRIB';
+  src: url(../webfonts/CALIBRIB.eot);
+  src: url(../webfonts/CALIBRIB.eot?#iefix) format('embedded-opentype'),
+       url(../webfonts/CALIBRIB.woff2) format('woff2'),
+       url(../webfonts/CALIBRIB.woff) format('woff'),
+       url(../webfonts/CALIBRIB.ttf) format('truetype'),
+       url(../webfonts/CALIBRIB.svg#CALIBRIB) format('svg');
+}
+@font-face {
+  font-family: 'CALIBRII';
+  src: url(../webfonts/CALIBRII.eot);
+  src: url(../webfonts/CALIBRII.eot?#iefix) format('embedded-opentype'),
+       url(../webfonts/CALIBRII.woff2) format('woff2'),
+       url(../webfonts/CALIBRII.woff) format('woff'),
+       url(../webfonts/CALIBRII.ttf) format('truetype'),
+       url(../webfonts/CALIBRII.svg#CALIBRII) format('svg');
+}
+@font-face {
+  font-family: 'CALIBRIZ';
+  src: url(../webfonts/CALIBRIZ.eot);
+  src: url(../webfonts/CALIBRIZ.eot?#iefix) format('embedded-opentype'),
+       url(../webfonts/CALIBRIZ.woff2) format('woff2'),
+       url(../webfonts/CALIBRIZ.woff) format('woff'),
+       url(../webfonts/CALIBRIZ.ttf) format('truetype'),
+       url(../webfonts/CALIBRIZ.svg#CALIBRIZ) format('svg');
+}
+@font-face {
+  font-family: 'LegacySerif-Bold';
+  src: url(../webfonts/LegacySerif-Bold.eot);
+  src: url(../webfonts/LegacySerif-Bold.eot?#iefix) format('embedded-opentype'),
+       url(../webfonts/LegacySerif-Bold.woff2) format('woff2'),
+       url(../webfonts/LegacySerif-Bold.woff) format('woff'),
+       url(../webfonts/LegacySerif-Bold.ttf) format('truetype'),
+       url(../webfonts/LegacySerif-Bold.svg#LegacySerif-Bold) format('svg');
+}
+@font-face {
+  font-family: 'LegacySerif-BoldItalic';
+  src: url(../webfonts/LegacySerif-BoldItalic.eot);
+  src: url(../webfonts/LegacySerif-BoldItalic.eot?#iefix) format('embedded-opentype'),
+       url(../webfonts/LegacySerif-BoldItalic.woff2) format('woff2'),
+       url(../webfonts/LegacySerif-BoldItalic.woff) format('woff'),
+       url(../webfonts/LegacySerif-BoldItalic.ttf) format('truetype'),
+       url(../webfonts/LegacySerif-BoldItalic.svg#LegacySerif-BoldItalic) format('svg');
+}
+@font-face {
+  font-family: 'LegacySerif-Book';
+  src: url(../webfonts/LegacySerif-Book.eot);
+  src: url(../webfonts/LegacySerif-Book.eot?#iefix) format('embedded-opentype'),
+       url(../webfonts/LegacySerif-Book.woff2) format('woff2'),
+       url(../webfonts/LegacySerif-Book.woff) format('woff'),
+       url(../webfonts/LegacySerif-Book.ttf) format('truetype'),
+       url(../webfonts/LegacySerif-Book.svg#LegacySerif-Book) format('svg');
+}
+@font-face {
+  font-family: 'LegacySerif-BookItalic';
+  src: url(../webfonts/LegacySerif-BookItalic.eot);
+  src: url(../webfonts/LegacySerif-BookItalic.eot?#iefix) format('embedded-opentype'),
+       url(../webfonts/LegacySerif-BookItalic.woff2) format('woff2'),
+       url(../webfonts/LegacySerif-BookItalic.woff) format('woff'),
+       url(../webfonts/LegacySerif-BookItalic.ttf) format('truetype'),
+       url(../webfonts/LegacySerif-BookItalic.svg#LegacySerif-BookItalic) format('svg');
+}
+@font-face {
+  font-family: 'LegacySerif-Medium';
+  src: url(../webfonts/LegacySerif-Medium.eot);
+  src: url(../webfonts/LegacySerif-Medium.eot?#iefix) format('embedded-opentype'),
+       url(../webfonts/LegacySerif-Medium.woff2) format('woff2'),
+       url(../webfonts/LegacySerif-Medium.woff) format('woff'),
+       url(../webfonts/LegacySerif-Medium.ttf) format('truetype'),
+       url(../webfonts/LegacySerif-Medium.svg#LegacySerif-Medium) format('svg');
+}
+@font-face {
+  font-family: 'LegacySerif-MediumItalic';
+  src: url(../webfonts/LegacySerif-MediumItalic.eot);
+  src: url(../webfonts/LegacySerif-MediumItalic.eot?#iefix) format('embedded-opentype'),
+       url(../webfonts/LegacySerif-MediumItalic.woff2) format('woff2'),
+       url(../webfonts/LegacySerif-MediumItalic.woff) format('woff'),
+       url(../webfonts/LegacySerif-MediumItalic.ttf) format('truetype'),
+       url(../webfonts/LegacySerif-MediumItalic.svg#LegacySerif-MediumItalic) format('svg');
+}
+@font-face {
+  font-family: 'LegacySerif-Ultra';
+  src: url(../webfonts/LegacySerif-Ultra.eot);
+  src: url(../webfonts/LegacySerif-Ultra.eot?#iefix) format('embedded-opentype'),
+       url(../webfonts/LegacySerif-Ultra.woff2) format('woff2'),
+       url(../webfonts/LegacySerif-Ultra.woff) format('woff'),
+       url(../webfonts/LegacySerif-Ultra.ttf) format('truetype'),
+       url(../webfonts/LegacySerif-Ultra.svg#LegacySerif-Ultra) format('svg');
+}
+
+
 body{
   text-align:center;
-  font-family: "Roboto", sans-serif;
-  font-weight:bold;
+  font-family: "LegacySerif-Book", sans-serif;
+/*  font-weight:bold;*/
   background-color: #e4e4e4;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Roboto", sans-serif;
 	margin: 0!important;
 	text-align: left;
 }
 
 h1 {
-  color: #212121!important;
-  font-weight: 400!important;
-  font-size: 42px!important;
+	font-family: "LegacySerif-MediumItalic", sans-serif;
+	color: #212121!important;
+	/*font-weight: 400!important;*/
+	font-size: 62px!important;
 }
 
 h2 {
@@ -155,9 +256,9 @@ form label {
 
 .dlt-head-txt {
 	font-family: "Roboto", sans-serif;
-  color: #212121!important;
-  font-weight: 400!important;
-  font-size: 16px!important;
+	color: #212121!important;
+	font-weight: 400!important;
+	font-size: 16px!important;
 }
 
 
@@ -185,6 +286,22 @@ p{
 .mt-sm-12{
 	margin-top: 12rem!important;
 }
+
+.slam_login .nav-link{
+	font-family: "Calibri";
+	font-size: 15px;
+	color: #4A4A4A;
+}
+
+.slam_login .block-text{
+	font-family: "Calibri";
+	font-size: 17px!important;
+	color: #333333!important;
+	text-align: left;
+	padding: 20px;
+}
+
+
 
 
 .nav-link, .navbar {
@@ -340,7 +457,7 @@ th, td {
 	bottom:20px;
 	color:#d72034;
 	background:white;
-padding: 6px 10px 6px 10px;
+padding: 5px 10px 2px 10px;
 	text-align: center;
 	margin: 0 0 0 0;
 	cursor:pointer;
@@ -473,26 +590,56 @@ top: -25px;
 padding-right: 10px;	
 }
 
+/* Login */
 .login label{
-	font-size: 16px;
+	font-family: "roboto-light";
+	font-size: 16px!important;
 	color: #757575;
 }
 
 .login input::-moz-placeholder { /* Code for Firefox */
+	font-size: 18px;
     color: #757575;
 }
 
 .login input::-webkit-input-placeholder { /* Chrome, Edge, Safari and Opera */
+	font-size: 18px;
     color: #757575;
 }
 
 .login input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font-size: 18px;
     color: #757575;
 }
 
 .login input::placeholder {
+	font-size: 18px;
     color: #757575;
 }
+
+.login .forgetpassword{
+	font-family: "roboto-light";
+	font-size: 16px!important;
+	color: #D82034;
+}
+
+button {
+	font-family: "Calibri";
+	font-size: 16px!important;
+	text-align: center!important;
+	color: white!important;
+}
+.footer-copyright{
+	font-family: "Calibri";
+	font-size: 14px!important;
+	color: white!important;
+}
+
+.footer-copyright .float-right{
+	margin-right: 40px;
+	
+}
+
 
 .modal-body .nav-link {
 	font-weight: normal;
